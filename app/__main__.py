@@ -4,6 +4,6 @@ app = Flask(__name__)
 
 @app.route('/')
 def helloIndex():
-    return 'Hello world!'
+    return 'Hello tek!'
 
-app.run(host='0.0.0.0', port=8080)
+app.run(host='0.0.0.0', port=8180)
